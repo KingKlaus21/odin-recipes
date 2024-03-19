@@ -23,15 +23,17 @@ img {
 
 #OdinCakeImg {
     position: relative;
-    bottom: 440;
-    left: 100px;
+    left: 180px;
+    
 }
 
 #OdinDonutImg {
-
+    position: relative;
+    left: 280px;
+    
 }
 
 #OdinPieImg {
-
+    
 }
 
