@@ -1,16 +1,20 @@
+h1,
 #hometitle {
     margin: 0;
     font-family: "Verdana", sans-serif;
     color: rgb(248, 220, 243);
     font-weight: bold;
-    font-size: 140px;
     text-shadow: 5px 5px rgb(255, 0, 212);
     text-align: center;
+}
 
+h1 {
+    font-size: 80px;
 }
 
 body {
     background-color: black;
+    color: rgb(248, 220, 243);
 }
 
 img {
@@ -20,18 +24,14 @@ img {
     border-color: rgb(255, 214, 246) rgb(255, 121, 233) rgb(255, 121, 233) rgb(255, 214, 246);
 }
 
+#hometitle {
+    font-size: 140px;
+}
+
 #OdinCakeImg {
     width: 400px;
     position: relative;
     left: 250px;
-    top: 100px;
-    
-}
-
-#OdinDonutImg {
-    width: 490px;
-    position: relative;
-    left: 450px;
     top: 100px;
     
 }
@@ -43,3 +43,14 @@ img {
     top: 100px;
 }
 
+#OdinDonutImg {
+    width: 490px;
+    position: relative;
+    left: 450px;
+    top: 100px;
+}
+
+/* To Do:
+   1. Figure out how to center images properly on pages without messing up specific widths
+   2. Remove empty paragraphs like <p></p> from pages
+*/
