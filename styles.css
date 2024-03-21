@@ -22,6 +22,9 @@ img {
     border: 3px solid;
     border-radius: 4px;
     border-color: rgb(255, 214, 246) rgb(255, 121, 233) rgb(255, 121, 233) rgb(255, 214, 246);
+    position: absolute;
+    top: 300px;
+    left: 630px;
 }
 
 #hometitle {
@@ -30,27 +33,55 @@ img {
 
 #OdinCakeImg {
     width: 400px;
-    position: relative;
-    left: 250px;
-    top: 100px;
-    
+    left: 300px;
 }
 
 #OdinCupcakeImg {
     width: 265px;
-    position: relative;
-    left: 350px;
-    top: 100px;
+    left: 770px;
 }
 
 #OdinDonutImg {
     width: 490px;
+    left: 1100px;
+}
+
+.pagePos {
     position: relative;
-    left: 450px;
-    top: 100px;
+    top: 60px;
+}
+
+.pagePos.specialPos {
+    left: 730px;
 }
 
 /* To Do:
-   1. Figure out how to center images properly on pages without messing up specific widths
-   2. Remove empty paragraphs like <p></p> from pages
+   X  1. Figure out how to center images properly on pages without messing up specific widths
+   X  2. Remove empty paragraphs like <p></p> from pages
+      3. Decide how you want to format pages
 */
+
+/*
+ -------------------------------------------
+                Odin Cake
+    ___________
+   |           |    Description: Blah
+   |           |    blah blah blah                       This looks good
+   |           |    blah blah blah
+   -------------
+
+                Ingredients
+
+        Wet:                    Dry:                     
+      *Item                     *Item                    Needs work
+      *Item                     *Item
+
+               Instructions
+
+    1. Blah blah blah blah blah blah blah
+    2. Blah blah blah blah blah blah blah                Might be okay
+    3. Blah Blah Blah blah blah blah blah
+
+
+                   Home                                  Remeber to make this larger
+ --------------------------------------------
