@@ -12,6 +12,47 @@ h1 {
     font-size: 80px;
 }
 
+h2 {
+    font-size: 50px;
+    color: white;
+    text-shadow: 3px 2px rgb(255, 0, 212);
+    text-align: center;   
+}
+
+h3 {
+    font-size: 35px;
+    color: white;
+    text-align: left;
+
+}
+
+p {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+ul,
+ol {
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    font-weight: 300;
+}
+
+.ulIndent {
+    padding-left: 26em;
+    line-height: 1.2;
+}
+/* Padding left used to indent to move entire list to the center including dots */
+/* Line height to change how close together lines of text are (called leading) */
+
+.olIndent {
+    padding-left: 3.5em;
+    line-height: 1.2;
+}
+
 body {
     background-color: black;
     color: rgb(248, 220, 243);
@@ -55,10 +96,19 @@ img {
     left: 730px;
 }
 
+#ReturnHome {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border: 0px solid;
+    width: 40px;
+}
+
 /* To Do:
    X  1. Figure out how to center images properly on pages without messing up specific widths
    X  2. Remove empty paragraphs like <p></p> from pages
-      3. Decide how you want to format pages
+   X  3. Decide how you want to format pages
+      4. Fix donut image
 */
 
 /*
