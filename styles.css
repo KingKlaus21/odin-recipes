@@ -5,14 +5,15 @@
 body {
     background-color: black;
     color: rgb(248, 220, 243);
+    margin: 0px;
 
     display: flex;
     flex-direction: column;
 }
 
 body > * {
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
 h1 {
@@ -23,18 +24,20 @@ h1 {
     padding-right: 5%; */
     font-size: 60px;
     /* make font smaller? */
-    color: rgb(248, 220, 243);
+    color: rgb(253, 253, 253);
     font-weight: bold;
-    text-shadow: 4px 4px rgb(255, 0, 212);
+    text-shadow: 3px 3px rgb(255, 0, 212);
     /* make white? */
     text-wrap: nowrap;
-    /* causes issues */
+    
 }
 
 h2 {
-    font-size: 50px;
+    margin: 0px;
+    font-size: 40px;
     color: white;
     text-shadow: 3px 2px rgb(255, 0, 212); 
+    text-wrap: nowrap;
 }
 
 p {
@@ -51,6 +54,7 @@ ul {
     font-size: 20px;
     font-weight: 600;
     color: white;
+    /* add hover command for links */
 
     display: flex;
 }
@@ -64,8 +68,8 @@ ol {
 }
 
 img {
-    height: auto;
-    /* might change height idk */
+    /* dont add width+height to this directly
+       since this is very parent/child specific */
     border: 3px solid;
     border-radius: 4px;
     border-color: rgb(255, 214, 246) rgb(255, 121, 233) rgb(255, 121, 233) rgb(255, 214, 246);
@@ -82,11 +86,21 @@ span {
     /* Used for caution signs on cupcake disclaimer */
 }
 
+
+
+/* ------------------------------------------------------ */
+
+
 .header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    background: #2b282b;
+    height: 80px;
+    box-shadow: 0 0 3px 2px rgb(75, 73, 73);
     
+    /* make height larger */
+    /* add subtle border design */
 }
 
 .left-links {
@@ -122,4 +136,57 @@ span {
     flex-direction: row;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* ------------------------------------------------- */
+
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    /* width: 40%; */
+    /* try to get this to 100% */
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info > * > img {
+    height: 18em;
+    width: auto;
+}
+
+
+/* --------------------------------------------------- */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2b282b;
+    height: 80px;
+    box-shadow: 0 0 3px 2px rgb(75, 73, 73);
+
+}
+
+.footer-text {
+    font-size: 12px;
+    color: rgb(248, 220, 243);
+    font-weight: 200;
+    line-height: 1;
 }
