@@ -33,16 +33,17 @@ h1 {
     text-shadow: 3px 3px rgb(255, 0, 212);
     /* make white? */
     text-wrap: nowrap;
-    
 }
 
 h2 {
     margin: 0px;
-    font-size: 40px;
+    font-size: 50px;
     color: white;
     text-shadow: 3px 2px rgb(255, 0, 212); 
     text-wrap: nowrap;
 }
+
+/* make h3 for pages (40px) */
 
 p {
     font-size: 30px;
