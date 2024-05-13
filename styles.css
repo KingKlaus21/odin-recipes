@@ -43,6 +43,14 @@ h2 {
     text-wrap: nowrap;
 }
 
+h3 {
+    margin: 0px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 3px 2px rgb(255, 0, 212); 
+    text-wrap: nowrap;
+}
+
 /* make h3 for pages (40px) */
 
 p {
@@ -103,7 +111,7 @@ span {
 
 
 
-/* ------------------------------------------------------ */
+/* -----------------------Header---------------------------- */
 
 
 .header {
@@ -153,15 +161,21 @@ span {
     margin-right: auto;
 }
 
-/* ------------------------------------------------- */
+/* ---------------------Landing Content------------------------- */
 
 
 .main-content {
+    padding-top: 2em;
+    padding-bottom: 2em;
+
     display: flex;
     flex-direction: column;
 }
 
 .info-container {
+    /* padding-top: 2em;
+    padding-bottom: 2em; */
+
     display: flex;
     flex-direction: row;
 
@@ -177,14 +191,11 @@ span {
 .info {
     /* width: 40%; */
     /* try to get this to 100% */
-
     display: flex;
     flex-direction: column;
 
     justify-content: center;
     align-items: center;
-    
-
 }
 
 .info > * > img {
@@ -193,7 +204,50 @@ span {
 }
 
 
-/* --------------------------------------------------- */
+/* ----------------------Pages------------------------ */
+
+.page-title {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.intro-content {
+    /* info container */
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* gap: 20px 52px; */
+    /* gap: 5% 5%; */
+    gap: 2em 3em;
+    /* either gap works */
+}
+
+.product,
+.description {
+    /* info */
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------Footer------------------------ */
 
 .footer {
     display: flex;
