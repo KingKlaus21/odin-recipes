@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
-    font-family: "Courier New", monospace;
+    font-family: "Raleway", sans-serif;
 }
 
 body {
@@ -22,6 +24,7 @@ body > * {
 
 h1 {
     margin: 0px;
+    /* padding gets overwritten by class hometitle */
     padding-left: 2%;
     padding-right: 2%;
  /* padding-left: 5%;
@@ -32,7 +35,8 @@ h1 {
     font-weight: bold;
     text-shadow: 3px 3px rgb(255, 0, 212);
     /* make white? */
-    text-wrap: nowrap;
+
+    /* text-wrap: nowrap; */
 }
 
 h2 {
@@ -155,15 +159,16 @@ span {
     padding-left: auto;
 }
 
-.header h1 {
-    padding: 4px 32px;
-}
+/* .header h1 {
+    padding: 4px 16px;
+} */
 
 ul {
     /* display: flex; */
     margin: 0px;
     padding: 0px;
     gap: 8px;
+    
     /* flex: auto;
     justify-content: center;
     align-items: stretch; */
@@ -177,6 +182,11 @@ li {
     /* flex: auto;
     justify-content: center;
     align-items: stretch;  */
+}
+
+#OdinDessertsIcon {
+    border: 0px;
+    padding: 4px 16px;
 }
 
 
