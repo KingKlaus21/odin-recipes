@@ -165,3 +165,115 @@ span {
 
 squish the page towards middle with auto margins
 center everything and stick stuff in boxes
+
+
+
+
+
+Header in case you mess up bad:
+
+HTML:
+
+<!-- <header class="header">
+        <!-- odin desserts should be 729px from either side (smaller on left) -->
+        <ul class="left-links">
+          <li><a href="https://www.youtube.com/watch?v=PbTjAVDqdXU">ASMR</a></li>
+          <!-- do <a href> -->
+          <!--Make drop down-->
+          <li><a href="#">Shows</a></li>
+        </ul>
+        <h1 class="hometitle"><a href='../index.html'>Odin Desserts</a></h1>
+        <!-- MAKE THIS RETURN HOME -->
+        <ul class="right-links">
+          <li><a href="#">Sweepstakes</a></li>
+          <li><a href="#">Chefs</a></li>
+        </ul>
+      </header> -->
+
+CSS:
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #2b282b;
+    height: 80px;
+    box-shadow: 0 0 3px 2px rgb(75, 73, 73);
+    
+    /* make height larger */
+    /* add subtle border design */
+}
+
+.left-links {
+    margin-right: auto;
+    flex-grow: 1;
+}
+
+.right-links {
+    margin-left: auto;
+    flex-grow: 1;
+}
+
+.left-links li:nth-child(n+2){
+    /* 1 is first in list and n starts at 0 so order goes
+       x     0    1     2     3
+       y     2    3     4     5*/
+    padding-left: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    /* both of these are used so the list items
+       could spread out evenly inside the parent,
+       keep the end items from moving, and allow
+       the page to remain reactive */
+    
+}
+
+.right-links li:nth-last-child(n+2){
+    /*  */
+    padding-right: 5%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+        <ul class="left-links">
+          <li><a href="https://www.youtube.com/watch?v=PbTjAVDqdXU">ASMR</a></li>
+          <!-- do <a href> -->
+          <!--Make drop down-->
+          <li><a href="#">Shows</a></li>
+        </ul>
+        <h1 class="hometitle"><a href='../index.html'>Odin Desserts</a></h1>
+        <!-- MAKE THIS RETURN HOME -->
+        <ul class="right-links">
+          <li><a href="#">Sweepstakes</a></li>
+          <li><a href="#">Chefs</a></li>
+        </ul>
+
+
+
+
+New left/right thing
+
+.left-links {
+    padding-right: 5%;
+    display: flex;
+    flex-direction: row;
+    /* justify-self: flex-start; */
+    /* margin-left: auto;
+    margin-right: auto; */
+
+}
+
+.right-links {
+    padding-left: 5%;
+    display: flex;
+    flex-direction: row;
+    /* justify-self: flex-end; */
+    /* justify-content: space-between;
+    width: inherit; */
+}
