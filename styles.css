@@ -65,6 +65,16 @@ p {
     color: white;
     font-weight: 600;
     line-height: 1.3;
+    margin: 0px;
+}
+
+li {
+    /* display: flex; */
+    margin: 0px;
+    padding: 0px;
+    /* flex: auto;
+    justify-content: center;
+    align-items: stretch;  */
 }
 
 ul {
@@ -74,6 +84,9 @@ ul {
     font-size: 20px;
     font-weight: 600;
     color: white;
+    margin: 0px;
+    padding: 0px;
+    gap: 8px;
     /* add hover command for links */
 
     display: flex;
@@ -165,27 +178,13 @@ span {
 /* .header h1 {
     padding: 4px 16px;
 } */
-
-ul {
     /* display: flex; */
-    margin: 0px;
-    padding: 0px;
-    gap: 8px;
+    
     
     /* flex: auto;
     justify-content: center;
     align-items: stretch; */
     /* flex-wrap: wrap; */
-}
-
-li {
-    /* display: flex; */
-    margin: 0px;
-    padding: 0px;
-    /* flex: auto;
-    justify-content: center;
-    align-items: stretch;  */
-}
 
 #OdinDessertsIcon {
     border: 0px;
@@ -241,35 +240,42 @@ li {
 /* ----------------------Pages------------------------ */
 
 .page-title {
-    margin-left: auto;
-    margin-right: auto;
-    
+    padding-bottom: 30px;
 }
 
-.intro-content {
-    /* info container */
-    display: flex;
-    flex-direction: row;
-
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    /* gap: 20px 52px; */
-    /* gap: 5% 5%; */
-    gap: 2em 3em;
-    /* either gap works */
+.ingredients,
+.description-title,
+.ingredients-title,
+.steps-title {
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
-.product,
-.description {
-    /* info */
+.ulIndent {
+    list-style-type:disc;
+    padding-left: 20px;
+    font-size: 30px;
 
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-    align-items: center;
+    display: block;
 }
+
+.olIndent {
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
