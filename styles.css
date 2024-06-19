@@ -120,7 +120,8 @@ a:hover {
 
 span {
     color: rgb(238, 255, 0);
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .Emoji {
@@ -190,8 +191,6 @@ span {
     border: 0px;
     padding: 4px 16px;
 }
-
-
 
 
 /* ---------------------Landing Content------------------------- */
@@ -265,8 +264,12 @@ span {
 }
 
 
+/* --------------Special For Donut Page----------------- */
 
-
+.pageDonutImg {
+    height: 400px;
+    width: auto;
+}
 
 
 
