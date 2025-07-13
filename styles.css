@@ -120,7 +120,7 @@ a:hover {
 }
 
 span {
-    color: rgb(238, 255, 0);
+    /* color: rgb(238, 255, 0); */
     font-size: 30px;
     font-weight: bold;
 }
